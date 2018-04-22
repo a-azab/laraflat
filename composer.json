@@ -1,0 +1,14 @@
+{
+    "name": "laraflat/users",
+    "description": "laraflat package to manage user",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraflat\\Users\\Providers\\LaraflatUserServiceProvider"
+            ]
+        }
+    }
+}
