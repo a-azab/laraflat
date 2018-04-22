@@ -23,13 +23,6 @@ class LaraflatUserServiceProvider extends ServiceProvider
 
         $this->LoadImportantFiles();
 
-        /*
-         * run make:auth command
-         * this very important to use auth middleware
-         */
-
-        Artisan::call("make:auth");
-
     }
 
     /**
@@ -40,12 +33,13 @@ class LaraflatUserServiceProvider extends ServiceProvider
     public function register()
     {
 
+
     }
 
     /**
-    * Load files
-    * migration , views , routes
-    */
+     * Load files
+     * migration , views , routes
+     */
 
     public function LoadImportantFiles()
     {
