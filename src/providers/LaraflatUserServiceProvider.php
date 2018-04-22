@@ -23,6 +23,6 @@ class LaraflatUserServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        dd('ssddsds');
+       //here code
     }
 }
