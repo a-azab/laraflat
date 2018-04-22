@@ -4,7 +4,11 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {},
-    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Laraflat\\Users\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
