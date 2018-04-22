@@ -15,5 +15,11 @@
                 "Laraflat\\Users\\Providers\\LaraflatUserServiceProvider"
             ]
         }
-    }
+    },
+    "scripts": {
+        "post-install-cmd": [
+          "php artisan make:auth",
+          "php artisan migrate"
+        ]
+      }
 }
