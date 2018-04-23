@@ -9,11 +9,16 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false"
-         syntaxCheck="true"
 >
     <testsuites>
-        <testsuite name="Laraflat tests users">
+        <testsuite name="Unit">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="APP_DEBUG" value="true"/>
+        <env name="APP_URL" value="http://127.0.0.1:8000"/>
+        <env name="APP_KEY" value="base64:M1igrxNfAWlVGyxxDholHqvVqvtPjAzCoJ+2/ILAVPw="/>
+    </php>
 </phpunit>
