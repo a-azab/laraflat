@@ -25,7 +25,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Laraflat\\Users\\Tests": "tests/"
+            "Laraflat\\Users\\Tests\\": "tests/"
         }
     },
     "extra": {
